@@ -115,6 +115,7 @@ img{
     background: var(--item-background-color);
     border-radius: 10px;
     margin-bottom: 20px;
+    
 }
 .jacket{
     padding: 20px;
@@ -153,6 +154,11 @@ img{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 10px;
     margin-bottom: 20px;
+    
+}
+.icon-box:hover .icon-content h4{
+    color:var(--main-color);
+    transition: all .3s;
 }
 .icon-content{
     margin-left: 30px;
@@ -173,22 +179,49 @@ img{
 /*====================================================*/
 /* ============== FOOTER PART CSS ====================*/
 /*===================================================*/
+footer{
+    background: var(--primary-color);
+}
 .footer-content p{
     color: #fff;
-    background: var(--primary-color);
     font-size: 16px;
     padding: 15px 0px;
     text-align: center;
+    margin-bottom: 0!important;
     
 }
 .footer-content p span a{
-    padding-left: 10px;
+    padding-left: 5px;
     color: var(--main-color);
+    transition: all .3s;
 }
-
+.footer-content p span a:hover{
+    color: #dedede
+}
 /*====================================================*/
 /* ============== MEDIA QUERY CSS ====================*/
 /*===================================================*/
 @media screen and (max-width:575px){
-    
+    .jacket{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .jacket h3{
+        font-size: 26px;
+    }
+    .icon-box{
+        padding: 10px;
+        text-align: center;
+    }
+    .icon-content{
+        margin-left: 0;
+    }
+    .icon-img{
+        width: 70px;
+        margin-bottom: 10px;
+    }
+    .services-img{
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
