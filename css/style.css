@@ -1,0 +1,51 @@
+
+/*====================================================*/
+/* ============== GLOBAL CSS START ==============*/
+/*===================================================*/
+:root{
+    --main-color:#363958;
+    --primary-color:#FABE4C;
+    --secondary-color:#3E3E3E;
+    --nav-anchor-color:#3C3C3C;
+    --main-background-color:#FFFBF0;
+    --btn-background-color:linear-gradient(to right,#56ab2f,#a8e063);
+    --item-background-color:#F1F1F1;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+/*====================================================*/
+/* ============== HEADER PART CSS START ==============*/
+/*===================================================*/
+.logo{
+    width: 300px;
+}
+.custom-nav{
+    background:var(--main-background-color);
+    padding: 15px 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:var(--nav-anchor-color);
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 40px;
+    transition: all .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--primary-color);
+}
