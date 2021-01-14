@@ -57,7 +57,7 @@ img{
    
 }
 .banner-content{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .banner-content h1{
     color: var(--main-color);
@@ -183,8 +183,35 @@ img{
 /*====================================================*/
 /* ============== CONTACT PART CSS ====================*/
 /*===================================================*/
-
-
+.contact-part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.input-box{
+    color:#fff!important;
+    display: block;
+    margin-bottom: 30px;
+    background: var(--primary-color);
+    width: 90%;
+    padding: 20px;
+    border:none;
+    border-radius: 4px;
+}
+.textarea-box{
+    color:#fff!important;
+    display: block;
+    background: var(--primary-color);
+    width: 90%;
+    padding: 20px;
+    border:none;
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.textarea-box:focus{
+    box-shadow: none;
+    background: var(--primary-color);
+}
 /*====================================================*/
 /* ============== FOOTER PART CSS ====================*/
 /*===================================================*/
@@ -214,7 +241,9 @@ footer{
     .banner-content{
         margin-top: 0;
     }
-   
+    .banner-img{
+        margin-top: 30px;
+    }
     .jacket{
         text-align: center;
         margin-bottom: 20px;
@@ -236,5 +265,51 @@ footer{
     .services-img{
         margin-left: 0;
         margin-top: 20px;
+    }
+    .input-box,.textarea-box{
+        width: 100%;
+    }
+    .contact-img{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .banner-content{
+        margin-top: 0;
+    }
+    .banner-img{
+        margin-top:30px;
+    }
+    .jacket{
+        margin-bottom: 20px;
+    }
+    .services-img{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .input-box,.textarea-box{
+        width: 100%;
+    }
+    .contact-img{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:992px){
+    .banner-content{
+        margin-top: 20px;
+    }
+    .banner-img{
+        margin-top:30px;
+    }
+    .jacket{
+        margin-bottom: 20px;
+    }
+    .services-img{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .input-box,.textarea-box{
+        width: 100%;
     }
 }
