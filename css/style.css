@@ -87,7 +87,7 @@ img{
 .theme-btn a:hover{
     color: var(--primary-color)!important;
     background: transparent;
-    border-color: #56ab2f;
+   border-color:#56ab2f;
 }
 .theme-btn i{
     padding-right: 10px;
@@ -270,7 +270,7 @@ footer{
         width: 100%;
     }
     .contact-img{
-        margin-top: 30px;
+       margin-bottom: 40px;
     }
 }
 
